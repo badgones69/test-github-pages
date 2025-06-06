@@ -7,15 +7,15 @@
       "projectType": "application",
       "schematics": {},
       "root": "",
-      "sourceRoot": "/",
+      "sourceRoot": "src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/test-github-pages",
-            "index": "index.html",
-            "browser": "main.ts",
+            "index": "src/index.html",
+            "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
             ],
@@ -27,7 +27,7 @@
               }
             ],
             "styles": [
-              "styles.css"
+              "src/styles.css"
             ],
             "scripts": []
           },
@@ -85,7 +85,7 @@
               }
             ],
             "styles": [
-              "styles.css"
+              "src/styles.css"
             ],
             "scripts": []
           }
